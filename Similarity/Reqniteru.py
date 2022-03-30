@@ -10,11 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 #os.environ['MECAB_PATH']='/usr/local/lib/libmecab.so'
 #os.environ['MECAB_CHARSET']='utf-16'
 
-doc1 ='/Users/Hashiki/Documents/programming/Similarity/install.txt'
-wtext ='/Users/Hashiki/Documents/programming/Similarity/install2.txt'
 
-doc2 ='/Users/Hashiki/Documents/programming/Similarity/install2.pdf'
-doc3 ='/Users/Hashiki/Documents/programming/Similarity/SecurityTraining2022ja.pdf'
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 corpus = codecs.open(doc1,'r','utf-8').read().splitlines()
